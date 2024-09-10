@@ -1,4 +1,5 @@
 import MainHeaderBackground from '@/components/main-header/main-header-background';
+import NavLink from '@/components/main-header/nav-link';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -17,8 +18,8 @@ export default function MainHeader () {
 
         <nav className={classes.nav}>
           <ul>
-            <li><Link href="/meals">Browse Meals</Link></li>
-            <li><Link href="/community">Foodies community</Link></li>
+            <li><NavLink href="/meals">Browse Meals</NavLink></li>
+            <li><NavLink href="/community">Foodies community</NavLink></li>
           </ul>
         </nav>
       </header>

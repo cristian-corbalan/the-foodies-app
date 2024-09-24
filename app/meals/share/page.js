@@ -1,6 +1,11 @@
 import ShareMealForm from '@/components/forms/share-meal-form';
 import classes from './page.module.css';
 
+export const metadata = {
+  title: 'Share meal',
+  description: 'Share your delicious meal with our community!.'
+};
+
 export default function ShareMealPage () {
   return (
     <>
